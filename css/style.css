@@ -1,0 +1,40 @@
+.table{
+    width: 30vw;
+    margin-left: 35vw;
+    border: 2px solid grey;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Bowlby One SC', cursive;
+}
+h1{
+    padding-left: 30px;
+}
+
+@media screen and (max-width:927px){
+    .table{
+        width: 40vw;
+        margin-left: 30vw;
+    }
+}
+@media screen and (max-width:695px){
+    .table{
+        width: 50vw;
+        margin-left: 25vw;
+    }
+}
+@media screen and (max-width:556px){
+    .table{
+        width: 60vw;
+        margin-left: 15vw;
+    }
+}
+@media screen and (max-width:464px){
+    .table{
+        width: 80vw;
+        margin-left: 5vw;
+    }
+    h1{
+        padding-left: 0px;
+    }
+}
